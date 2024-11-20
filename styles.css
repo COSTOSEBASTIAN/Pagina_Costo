@@ -1,0 +1,87 @@
+    /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd; /* Azul claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el título */
+#title {
+    color: #0288d1; /* Azul más oscuro para el título */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para la descripción */
+#description {
+    text-align: center;
+    color: #0288d1; /* Azul claro */
+}
+
+/* Estilo del formulario */
+form {
+    background-color: #fce4ec; /* Rosado claro */
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+/* Estilo para los labels */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #0288d1; /* Azul claro */
+}
+
+/* Estilo para los inputs */
+input[type="text"], input[type="email"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #0288d1;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #0288d1; /* Azul claro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0277bd; /* Azul más oscuro al pasar el mouse */
+}
+
+/* Estilo para los radios y checkboxes */
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Estilo para los elementos del formulario */
+p {
+    color: #0288d1; /* Azul claro */
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
