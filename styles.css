@@ -73,7 +73,7 @@ button {
 }
 
 button:hover {
-    background-color: #004b87; /* Azul más oscuro al pasar el mouse */
+    background-color: #c2c2c2; /* Azul más oscuro al pasar el mouse */
 }
 
 /* Estilo para los radios y checkboxes */
